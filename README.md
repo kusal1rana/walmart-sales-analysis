@@ -1,8 +1,8 @@
 # walmart-sales-analysis
 
-create database shikhar;
+create database walmart;
 
-use shikhar;
+use walmart;
 
 ## creating duplicate free temporary order table using cte function
 with cto as (select distinct * from dbo.[order1])
